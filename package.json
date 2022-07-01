@@ -7,9 +7,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "docker-full": "yarn docker-build && yarn docker-tag && yarn docker-push",
+    "docker-full": "yarn docker-build && yarn docker-push",
     "docker-build": "docker build -t famasmaster78/docker-swarm-test .",
-    "docker-tag": "docker tag famasmaster78/docker-swarm-test",
     "docker-push": "docker push famasmaster78/docker-swarm-test"
   },
   "dependencies": {
